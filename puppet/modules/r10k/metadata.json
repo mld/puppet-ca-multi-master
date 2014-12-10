@@ -1,0 +1,100 @@
+{
+  "name": "zack-r10k",
+  "version": "2.2.4",
+  "source": "https://github.com/acidprime/r10k",
+  "author": "zack",
+  "license": "Apache License, Version 2.0",
+  "summary": "Dynamic environments with git & r10k",
+  "description": "Module for setting up dynamic environments using r10k",
+  "project_page": "https://github.com/acidprime/r10k",
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 3.2.0"
+    },
+    {
+      "name": "puppetlabs/ruby",
+      "version_requirement": ">= 0.0.2"
+    },
+    {
+      "name": "puppetlabs/gcc",
+      "version_requirement": ">= 0.0.3"
+    },
+    {
+      "name": "puppetlabs/pe_gem",
+      "version_requirement": ">= 0.0.1"
+    },
+    {
+      "name": "mhuffnagle/make",
+      "version_requirement": ">= 0.0.1"
+    },
+    {
+      "name": "puppetlabs/inifile",
+      "version_requirement": ">= 1.0.0"
+    },
+    {
+      "name": "puppetlabs/vcsrepo",
+      "version_requirement": ">= 0.1.2"
+    },
+    {
+      "name": "puppetlabs/git",
+      "version_requirement": ">= 0.0.3"
+    },
+    {
+      "name": "gentoo/portage",
+      "version_requirement": ">= 2.0.0"
+    }
+  ],
+  "types": [
+
+  ],
+  "checksums": {
+    "CHANGELOG": "cbbc853f6ff16908359a3a36df3b2dc6",
+    "Gemfile": "6f96e64cdb04aa5492e78594deb21040",
+    "Modulefile": "d97f2d152c4180cd9d94ff9c03aaa939",
+    "README.md": "95ce101ea53bd07756d041d10f772fe7",
+    "Rakefile": "d8167f959ec9574ccda2a188294a6c71",
+    "files/agent/r10k.ddl": "a4f5b1f4f17976ff481fb6a5a080d3ce",
+    "files/agent/r10k.rb": "e62dd53ccc4c6b071edb65fb140217b4",
+    "files/application/r10k.rb": "7e737d979f9441c3d16c8410f2454396",
+    "files/post-receive": "be75571c963ce429f77d25a91dc25875",
+    "files/pre-commit": "60f857881bdb2032cedfc644376f326f",
+    "files/prefix_command.rb": "9b9eaab7d7f47b11381588c669e85ad3",
+    "files/webhook": "6c95ec339a74e249062094ea12e9d873",
+    "manifests/config.pp": "abcf172a75f774363938a8a8e1592d68",
+    "manifests/init.pp": "5a069bc6c10dd8925128ab6dea933895",
+    "manifests/install/bundle.pp": "5fb62062406821073d50ccf3d9fb2114",
+    "manifests/install/gem.pp": "4f3bf43658aaaf2ed47295695c104196",
+    "manifests/install/pe_gem.pp": "678b6fd73330e338998c4395bd19e00d",
+    "manifests/install/portage.pp": "f11ebc75f8e7fe6f65289cf42b6e3fc0",
+    "manifests/install.pp": "3d0dee14da5a1330650510c239dc6d87",
+    "manifests/mcollective/application.pp": "c97f8c1dec9e5c1bbf1fde699e6c38b7",
+    "manifests/mcollective.pp": "3818437137fe4b05a5c025da66340ea6",
+    "manifests/params.pp": "6a593331001f1e3ebd0660d6739121a3",
+    "manifests/postrun_command.pp": "27ac947bfcaedf92d18f42e18dc33604",
+    "manifests/prerun_command.pp": "af849e24ad30343c998d00b972a7573c",
+    "manifests/webhook/config.pp": "a4c329c05c4c94c8af7f8617ca106579",
+    "manifests/webhook.pp": "16de0d6cb27e3ac99f86e6a97f1a1474",
+    "spec/classes/config_spec.rb": "716de7a4af26e13392c566d4cb4c71d6",
+    "spec/classes/init_spec.rb": "63e63441461472555667204e7b35ab25",
+    "spec/classes/install/bundle_spec.rb": "07d3297436ec2445171b7dee0eec4974",
+    "spec/classes/install/gem_spec.rb": "612912ecdcebb96692c138f79f9f03df",
+    "spec/classes/install/pe_gem_spec.rb": "310c50965ad4b3f13e8004a4ce72d474",
+    "spec/classes/install_spec.rb": "2e8f78a9e70e74a28046b95a62ce0001",
+    "spec/classes/mcollective/application_spec.rb": "9e62a41d999e77af070425550c60e551",
+    "spec/classes/mcollective_spec.rb": "193d648a156d2ac059e9e61e6738eede",
+    "spec/classes/params_spec.rb": "cc9e2d7fc2909994b191ad5e47069b1c",
+    "spec/classes/postrun_command_spec.rb": "c3e3d824e4a10a92d8c7bf18fe001116",
+    "spec/classes/prerun_command_spec.rb": "111978f4e8e52ac8be9d619cf4d84778",
+    "spec/classes/r10k_spec.rb": "39a8406433a03b17b89c6cb0dd9058a5",
+    "spec/spec.opts": "c407193b3d9028941ef59edd114f5968",
+    "spec/spec_helper.rb": "792eeb7aa7edafb93e2bc1d27c5e75c5",
+    "templates/r10k.yaml.erb": "c131d1ebe5802d2ae242d6029603ce2f",
+    "templates/webhook.init.erb": "6c6f631721a200d182a2faf7e8bbabbd",
+    "templates/webhook.yaml.erb": "bcbe2520af1c59e4aff9ec7c64d83ddf",
+    "tests/init.pp": "93bf33ec71153878bccd96458f018d37",
+    "tests/prerun_command.pp": "00c4f07ec0e8015063e5537dd65fec7d",
+    "tests/webhook/config.pp": "3fe6c1d947e4b73d8304924402014f6f",
+    "tests/webhook.pp": "9d523e8b4da977ad530139d8478e5ab0"
+  }
+}

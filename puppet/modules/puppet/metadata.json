@@ -1,0 +1,17 @@
+{
+  "name": "stephenrjohnson-puppet",
+  "version": "0.0.23",
+  "author": "Stephen Johnson",
+  "summary": "Resource types for managing puppet master and agent",
+  "license": "Apache",
+  "source": "git://github.com/stephenrjohnson/puppetlabs-puppet.git",
+  "project_page": "https://github.com/stephenrjohnson/puppetlabs-puppet",
+  "issues_url": "https://github.com/stephenrjohnson/puppetlabs-puppet/issues",
+  "description": "Resource types for managing puppet master and agent",
+  "dependencies": [
+    {"name":"puppetlabs/inifile","version_requirement":">= 1.0.0"},
+    {"name":"puppetlabs/apache","version_requirement":">= 0.8.0"},
+    {"name":"puppetlabs/puppetdb","version_requirement":">= 2.0.0"},
+    {"name":"puppetlabs/stdlib","version_requirement":">= 3.0.0"}
+  ]
+}
